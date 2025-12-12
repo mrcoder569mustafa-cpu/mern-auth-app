@@ -1,0 +1,24 @@
+{
+  "name": "mern-auth-app",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+  "server": "cd backend && npm run dev",
+  "client": "cd frontend && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mrcoder569mustafa-cpu/mern-auth-app/issues"
+  },
+  
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
